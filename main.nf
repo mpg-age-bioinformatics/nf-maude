@@ -46,6 +46,9 @@ process promaude {
     val treatment
     val paired
     val control_gene
+
+  when:
+    ( ! file("${params.output_maude}/GeneLevelStats.txt").exists() )
   
   script:
     """
