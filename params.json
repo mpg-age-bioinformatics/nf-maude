@@ -1,0 +1,7 @@
+{ 
+  "samples_tsv":"/nexus/posix0/MAGE-flaski/service/hpc/home/jboucas/nextflow-crispr-data/samples.tsv",
+  "ouput_mageck_count" : "/nexus/posix0/MAGE-flaski/service/hpc/home/jboucas/nextflow-crispr-data/mageck_output/fastq" ,
+  "output_maude":"/nexus/posix0/MAGE-flaski/service/hpc/home/jboucas/nextflow-crispr-data/drugz_output",
+  "facs":"",
+  "ctrl_guides":
+}
