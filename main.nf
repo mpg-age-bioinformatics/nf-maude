@@ -57,7 +57,7 @@ library(ggplot2)
 library(MAUDE)
 setwd("${params.output_maude}")
 #file path
-count_file_path = "${params.ouput_mageck_count}/counts.count.txt"
+count_file_path = "${params.output_mageck_count}/counts.count.txt"
 MAUDE_bin = "${params.facs}"
 sgRNA_path = "${params.ctrl_guides}"
 # load bin expression data, names of the bins should be the same as in the count table
