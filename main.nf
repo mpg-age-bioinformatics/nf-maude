@@ -149,7 +149,6 @@ workflow images {
 
 
 workflow {
-    // if ( 'facs' in params.keySet()  ) {
     if ( "${params.facs}" != "null" ) {
       if ( ! file("${params.output_maude}").isDirectory() ) {
         file("${params.output_maude}").mkdirs()
