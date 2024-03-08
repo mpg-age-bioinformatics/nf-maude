@@ -17,7 +17,7 @@ process get_images {
 
         if [[ ! -f maude-7aa20cc.sif ]] ;
           then
-            singularity pull maude-7a0ffa4.sif docker://index.docker.io/mpgagebioinformatics/maude:7aa20cc
+            singularity pull maude-7aa20cc.sif docker://index.docker.io/mpgagebioinformatics/maude:7aa20cc
         fi
 
     fi
