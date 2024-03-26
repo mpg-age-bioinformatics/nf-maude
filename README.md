@@ -1,8 +1,13 @@
-# nf-fastqc
+# nf-maude
 
 Run the workflow:
 ```
 nextflow run mpg-age-bioinformatics/nf-maude -r 1.0.0 -params-file params.json
+```
+or
+```
+git clone https://github.com/mpg-age-bioinformatics/nf-maude.git
+nextflow run nf-maude -params-file params.json
 ```
 
 ## Contributing
